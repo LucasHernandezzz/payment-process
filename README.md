@@ -35,13 +35,11 @@ O projeto é totalmente containerizado, facilitando a execução em qualquer amb
    ```bash
    docker-compose up --build
    ```
-   - O comando `up` inicia todos os serviços definidos no `docker-compose.yml`.
-   - A flag `--build` garante que a imagem da aplicação seja reconstruída com as últimas alterações do código.
 
 3. **Acesse os serviços:**
    - **API do Serviço**: `http://localhost:8080`
    - **RabbitMQ Management UI**: `http://localhost:15672` (usuário: `guest`, senha: `guest`)
-   - **Banco de Dados PostgreSQL**: Acessível na porta `5432` (não exposto publicamente por padrão, apenas para a aplicação).
+   - **Banco de Dados PostgreSQL**: Acessível na porta `5432`.
 
 ## Documentação da API
 
